@@ -1,0 +1,42 @@
+.content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.content p {
+	display: block;
+	text-align: center;
+	font-family: menuFont;
+	font-size: 35px;
+	margin: 0;
+}
+
+.more-button {
+	display: flex;
+	justify-content: center;
+}
+
+.more-button div {
+	padding: 50px;
+}
+
+#text-desc {
+	opacity: 0;
+}
+
+.grid-item:hover #text-desc {
+	opacity: 1;
+}
+
+.grid-item:hover p {
+	opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+	.content {
+		padding-top: 20%;
+	}
+	.magazine-3-3 {
+		display: block;
+		padding-top: 0;
+	}
+}

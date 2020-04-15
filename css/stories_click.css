@@ -1,0 +1,132 @@
+.stories-image {
+	display: block;
+}
+
+.stories-image {
+	width: 100%;
+	background-image: url('../images/stories-click-image1.jpg');
+	background-size: 100%;
+	height: 800px;
+	height: 45vw;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.stories-text {
+	position: absolute;
+	bottom: 0;
+}
+
+.stories-text h1 {
+	font-size: 40pt;
+	line-height: 42pt;
+	font-family: titlebold;
+}
+
+.stories-container {
+	max-width: 1140px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.page-container {
+	padding-top: 40px;
+	padding-bottom: 0;
+	margin-left: 8.333333%;
+	flex: 0 0 83.333333%;
+	max-width: 83.333333%;
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.page-container h2 {
+	font-family: titleBold;
+	/*! display: block; */
+	text-align: left;
+	font-size: 35px;
+}
+
+.page-container p {
+	color: #000000;
+	font-family: menuFont, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+}
+
+.page-container h6 {
+	font-family: titlebold, serif;
+	font-size: 35pt;
+	line-height: 50pt;
+	width: 92%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: 300 !important;
+	color: #319d5c !important;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.style-left {
+	font-size: 50px;
+	text-align: left !important;
+}
+
+.button-stories {
+	font-family: titleBold;
+}
+
+.more-stories-click {
+	display: block;
+	padding-left: 13vw;
+}
+.button-stories-click {
+	display: block;
+	font-family: serif;
+	padding: 15px 30px;
+	color: black !important;
+	cursor: pointer;
+	transition: all 0.4s ease;
+	background: transparent;
+	/*! border: 2px solid black !important; */
+	font-family: menuFont;
+	font-size: 18px !important;
+	margin-left: 0 !important;
+	margin-bottom: 40px !important;
+}
+
+@font-face {
+	font-family: titlebold;
+	src: url(../font/Clearface-Bold.ttf);
+}
+
+@font-face {
+	font-family: menufont;
+	src: url(../font/gt-walsheim-regular.ttf);
+	font-weight: 500;
+}
+
+@media screen and (max-width: 480px) {
+	.stories-image {
+		padding-top: 20%;
+	}
+	.page-container {
+		margin-left: 0;
+	}
+	.page-content {
+		padding-top: 20%;
+	}
+
+	.more-stories-click {
+		padding-left: 0.5%;
+	}
+}
